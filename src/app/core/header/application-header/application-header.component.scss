@@ -1,0 +1,80 @@
+.side-menu {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.side-menu * {
+    font-family: 'ArialMT', 'Arial';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: normal;
+}
+
+.side-menu .panel {
+    position: relative;
+    left: 0px;
+    top: 95px;
+    width: 60px;
+    border: none;
+    height: 4062px;
+    box-sizing: border-box;
+    -moz-box-shadow: 1px 0 8px 0 rgba(166, 166, 166, 0.3);
+    -webkit-box-shadow: 1px 0 8px 0 rgba(166, 166, 166, 0.3);
+    background-color: #09202f;
+    box-shadow: 1px 0 8px 0 rgba(166, 166, 166, 0.3);
+}
+
+.side-menu .panel .content {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1px;
+    height: 1px;
+}
+
+.content .menu-items div {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+.active {
+    background-color: #b63a8c;
+}
+
+.logo-box {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #0098cc;
+}
+
+.logo-box .logo {
+    width: 37px;
+    height: 21.7px;
+}
+
+.wrapper {
+    width: 100%;
+    min-width: 1140px;
+    height: auto;
+    background-color: #f2f2f2;
+    padding-left: 60px;
+    margin-top: 95px;
+}
+
+.od-dashboard {
+    background: url(../../../../assets/images/icons/dashboard.svg);
+    padding: 3px;
+}
